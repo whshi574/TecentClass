@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{CB530215-4A2C-034B-1955-88AEFC465247}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SHI_TecentClass",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
