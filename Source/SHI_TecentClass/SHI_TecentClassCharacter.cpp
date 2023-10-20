@@ -9,6 +9,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Logging/LogMacros.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -56,6 +57,8 @@ void ASHI_TecentClassCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+	UE_LOG(LogTemp, Warning, TEXT("Character_Beginplay") );
+	
 	//Add Input Mapping Context
 	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
 	{
